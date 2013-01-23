@@ -1,0 +1,378 @@
+@charset "utf-8";
+/* ===================================================================
+ css name  :module.css
+ infomation :レイアウトおよびデザイン
+ =================================================================== */
+
+body {
+    background:#fbfaf3;
+    border-top:solid #800019 5px;
+}
+
+a { text-decoration:none; }
+
+.textHidden {
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.margin-top-25px {
+    margin-top:25px;
+}
+
+/* index.html start
+=======================================================================*/
+
+/* #wrapper
+----------------------------------------------------------- */
+div#wrapper {
+    margin:auto;
+    width:875px;
+}
+
+/* #header
+----------------------------------------------------------- */
+div#header {
+    width:875px;
+    height:165px;
+    border-bottom:solid #800019 5px;
+    overflow:hidden;
+}
+div#header h1 {
+}
+div#header h1 a {
+    width:471px;
+    height:165px;
+    background:url(../images/logo.png) no-repeat;
+    text-indent:-9999px;
+    float:left;
+    display:inline;
+}
+div#header h1 a { }
+div#header h1 a img { }
+div#header ul { }
+div#header ul li {
+    margin-top:32px;
+    margin-left:25px;
+    float:left;
+    display:inline;
+}
+div#header ul li a {
+    text-indent:-9999px;
+    display:block;
+}
+div#header ul li.headerIcon a {
+    width:101px;
+    height:101px;
+}
+div#header ul li#headerNextCup a      { background:url(../images/headerNextCup.gif) no-repeat; }
+div#header ul li#headerChampionTeam a { background:url(../images/headerChampionTeam.gif) no-repeat; }
+div#header ul li#headerGallery a      { background:url(../images/headerGallery.gif) no-repeat; }
+div#header ul li#headerNextCup a:hover      { background-position:0px -101px; }
+div#header ul li#headerChampionTeam a:hover { background-position:0px -101px; }
+div#header ul li#headerGallery a:hover      { background-position:0px -101px; }
+div#header ul li a img { }
+
+/* #slideShow
+----------------------------------------------------------- */
+div#slideShow {
+    margin-top:25px;
+    height:300px;
+}
+:focus { outline:none; }
+#featured {
+    width:500px;
+    height:300px;
+    padding-right:365px;
+    position:relative;
+    border:5px solid #e2ddc5;
+    background:#fbfaf3;
+}
+#featured ul.ui-tabs-nav {
+    width:365px;
+    position:absolute;
+    top:0; left:500px;
+    list-style:none;
+    margin:5px 0 0 0;
+    padding:0;
+}
+#featured ul.ui-tabs-nav li {
+    padding:1px 0 1px 13px;
+    color:#666;
+}
+#featured ul.ui-tabs-nav li img {
+    width:100px;
+    height:60px;
+    float:left;
+    margin:2px 5px;
+    padding:2px;
+    background:#fbfaf3;
+    border:1px solid #eee;
+}
+#featured ul.ui-tabs-nav li span {
+    font-size:0.9em;
+}
+#featured li.ui-tabs-nav-item a {
+    display:block;
+    height:70px;
+    color:#333;
+    background:#fbfaf3;
+    line-height:20px;
+}
+#featured li.ui-tabs-nav-item a span {
+    margin-top:50px;
+}
+#featured li.ui-tabs-nav-item a:hover { background:#f2f2f2; }
+#featured li.ui-tabs-selected { background:url(../images/selected-item.gif) top left no-repeat; }
+#featured ul.ui-tabs-nav li.ui-tabs-selected a { background:#e2ddc5; }
+#featured .ui-tabs-panel {
+    width:500px;
+    height:300px;
+    background:#e2ddc5;
+    position:relative;
+}
+#featured .ui-tabs-panel img {
+    width:500px;
+    height:300px;
+}
+#featured .ui-tabs-panel .info {
+    width:500px;
+    height:100px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background: url(../images/transparent-bg.png);
+}
+#featured .info h2 {
+    font-size:13px;
+    margin:10px;
+    color:#fff;
+    overflow:hidden;
+}
+#featured .info p {
+    margin:10px;
+    font-size:11px;
+    line-height:15px;
+    color:#f0f0f0;
+}
+#featured .info a {
+    text-decoration:none;
+    color:#fff;
+}
+#featured .info a:hover { text-decoration:underline; }
+#featured .ui-tabs-hide { display:none; }
+
+/* #center
+----------------------------------------------------------- */
+div#center {
+    height:400px;
+    margin-top:35px;
+}
+div#center ul { margin-left:-25px; }
+div#center ul li {
+    width:200px;
+    margin-left:25px;
+    float:left;
+    display:inline;
+}
+div#center ul li a {
+}
+div#center ul li.centerImage a {
+    width:200px;
+    height:400px;
+    text-indent:-9999px;
+    display:block;
+}
+div#center ul li#centerNextCup a            { background:url(../images/centerNextCup.jpg) no-repeat; }
+div#center ul li#centerNextCup a:hover      { background-position:-200px 0px; }
+div#center ul li#centerChampionTeam a       { background:url(../images/centerChampionTeam.jpg) no-repeat; }
+div#center ul li#centerChampionTeam a:hover { background-position:-200px 0px; }
+div#center ul li#centerGallery a            { background:url(../images/centerGallery.jpg) no-repeat; }
+div#center ul li#centerGallery a:hover      { background-position:-200px 0px; }
+div#center ul li a img { }
+
+/* #bottom
+----------------------------------------------------------- */
+div#bottom {
+    width:875px;
+    height:140px;
+    margin-top:25px;
+    overflow:hidden;
+}
+div#bottom div#news {
+    width:575px;
+    height:140px;
+    float:left;
+    display:inline;
+}
+div#bottom div#news h2 {
+    width:575px;
+    height:36px;
+    text-indent:-9999px;
+    background:url(../images/bottom_news_bg_t.jpg) no-repeat;
+}
+div#bottom div#news ul {
+    height:100px;
+    background:url(../images/bottom_news_bg_m.jpg) repeat-y;
+}
+div#bottom div#news ul li {
+    width:560px; /* ボーダーが枠線を越えて右にはみ出してしまうため、幅をせまくする */
+    height:13px;
+    border-top:dotted 2px #e2ddc5;
+    margin-left:1px; /* ボーダーが枠線を越えて左にはみ出してしまうため、右に寄せる */
+    padding:5px 0 5px 10px;
+}
+div#bottom div#news ul li a {
+    color:#340e0e;
+}
+div#bottom div#news ul li a:hover { text-decoration:underline; }
+div#bottom div#news ul li#newsFirst {
+    height:15px;
+    border:none;
+}
+div#bottom div#news div#newsBottom {
+    height:4px;
+    background:url(../images/bottom_news_bg_b.jpg) no-repeat;
+}
+div#bottom div#wish {
+}
+div#bottom div#wish h2 { }
+div#bottom div#wish h2 a {
+    width:275px;
+    height:140px;
+	background:url(../images/bottom_wish.gif) no-repeat;
+    float:right;
+    display:inline;
+}
+div#bottom p { }
+
+/* #footer
+----------------------------------------------------------- */
+div#footer {
+    margin-top:25px;
+    padding-top:10px;
+    width:100%;
+    height:100px;
+    background-color:#800019;
+    text-align:center;
+    color:white;
+}
+div#linkWrapper {
+    margin:auto;
+    width:875px;
+    height:55px;
+    padding-top:10px;
+}
+div#linkWrapper a {
+    text-decoration:underline;
+    color:white;
+}
+div#footer div.link {
+    width:291px;
+    height:25px;
+    float:left;
+}
+
+/* index.html end
+=======================================================================*/
+
+/* omoi.html start
+=======================================================================*/
+div#omoi {
+    margin-top:25px;
+    text-indent:-9999px;
+}
+div#omoi h2 {
+    height:29px;
+    background:url(../images/omoi_title.gif) no-repeat;
+}
+div#omoi h3 {
+    margin-top:25px;
+    width:875px;
+    height:810px;
+    background:url(../images/omoiDetail.jpg) no-repeat;
+}
+div#omoi p {
+    height:0px;
+}
+
+/* omoi.html end
+=======================================================================*/
+
+/* nextCup.html start
+=======================================================================*/
+div#nextCup {
+    margin-top:25px;
+}
+div#nextCup h {
+}
+div#nextCup div#ui-tab {
+    margin: 25px 0 0 0;
+}
+div#nextCup .ui-tabs-panel {
+    padding:0 25px 25px 25px;
+}
+div#nextCup .ui-tabs-panel dl {
+    line-height:200%
+}
+div#nextCup .ui-tabs-panel dl dt {
+    margin-top:25px;
+    font-size:2.0em;
+    font-weight:bold;
+}
+div#nextCup .ui-tabs-panel dl dd{
+    margin-top:5px;
+    padding-left:25px;
+    font-size:1.2em;
+}
+div#nextCup .ui-tabs-panel dl dd ol {
+}
+div#nextCup .ui-tabs-panel dl dd ol li{
+}
+div#nextCup .ui-tabs-panel dl dd ol li ul {
+    padding-left:25px;
+}
+div#nextCup .ui-tabs-panel dl dd ol li ul li {
+}
+/* nextCup.html end
+=======================================================================*/
+
+/* photo.html start
+=======================================================================*/
+div#photo {
+    margin-top:25px;
+/*    text-align:center;*/
+}
+div#photo h {
+}
+div#photo div#ui-tab {
+    margin: 25px 0 0 0;
+}
+div#photo .ui-tabs-panel {
+    text-align:center;
+}
+div#photo div#ui-tab embed {
+    margin-top:25px;
+}
+/* photo.html end
+=======================================================================*/
+
+/* gameResult.html start
+=======================================================================*/
+div#gameResult {
+    margin-top:25px;
+}
+div#gameResult h {
+}
+div#gameResult div#ui-tab {
+    margin: 25px 0 0 0;
+}
+/* gameResult.html end
+=======================================================================*/
+
+
+
+
+
+
