@@ -303,37 +303,34 @@ div#omoi p {
 /* nextCup.html start
 =======================================================================*/
 div#nextCup {
-    margin-top:25px;
+    width:875px;
+    margin:20px 0 0 0;
 }
-div#nextCup h {
-}
-div#nextCup div#ui-tab {
-    margin: 25px 0 0 0;
-}
-div#nextCup .ui-tabs-panel {
-    padding:0 25px 25px 25px;
-}
-div#nextCup .ui-tabs-panel dl {
-    line-height:200%
-}
-div#nextCup .ui-tabs-panel dl dt {
-    margin-top:25px;
-    font-size:2.0em;
+div#nextCup h3 {
+    margin:20px 0 0 0;
+    font-size:2em;
     font-weight:bold;
+    text-align:center;
 }
-div#nextCup .ui-tabs-panel dl dd{
-    margin-top:5px;
-    padding-left:25px;
-    font-size:1.2em;
+dl {
+	margin: 10px 0 0 0;
+	border: 7px #e2ddc5 solid;
 }
-div#nextCup .ui-tabs-panel dl dd ol {
+dl dt {
+	float: left;
+	width: 7em;
+	padding: 10px 0;
+	font-weight: bold;
+	text-indent: 1em;
+	line-height: 150%;
 }
-div#nextCup .ui-tabs-panel dl dd ol li{
+dl dd {
+	padding: 10px 0 0px 7em;
+	line-height: 150%;
 }
-div#nextCup .ui-tabs-panel dl dd ol li ul {
-    padding-left:25px;
-}
-div#nextCup .ui-tabs-panel dl dd ol li ul li {
+.lastdd {
+    padding-bottom: 10px;
+	border-bottom: 1px #e2ddc5 solid;
 }
 /* nextCup.html end
 =======================================================================*/
