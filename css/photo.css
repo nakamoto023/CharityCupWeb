@@ -1,0 +1,20 @@
+@charset "utf-8";
+/**
+ * photo.html用
+ */
+
+div#photo {
+    margin-top:25px;
+/*    text-align:center;*/
+}
+div#photo h {
+}
+div#photo div#ui-tab {
+    margin: 25px 0 0 0;
+}
+div#photo .ui-tabs-panel {
+    text-align:center;
+}
+div#photo div#ui-tab embed {
+    margin-top:25px;
+}

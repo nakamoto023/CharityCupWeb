@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+/**
+ * 各ページ共通
+ */
+body {
+    background:#fbfaf3;
+    border-top:solid #800019 5px;
+}
+
+a { text-decoration:none; }
+
+.textHidden {
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.margin-top-25px {
+    margin-top:25px;
+}
+
+div#wrapper {
+    margin:auto;
+    width:875px;
+}
+
+/** #header */
+div#header {
+    width:875px;
+    height:165px;
+    border-bottom:solid #800019 5px;
+    overflow:hidden;
+}
+div#header h1 {
+}
+div#header h1 a {
+    width:471px;
+    height:165px;
+    background:url(../images/logo.png) no-repeat;
+    text-indent:-9999px;
+    float:left;
+    display:inline;
+}
+div#header h1 a { }
+div#header h1 a img { }
+div#header ul { }
+div#header ul li {
+    margin-top:32px;
+    margin-left:25px;
+    float:left;
+    display:inline;
+}
+div#header ul li a {
+    text-indent:-9999px;
+    display:block;
+}
+div#header ul li.headerIcon a {
+    width:101px;
+    height:101px;
+}
+div#header ul li#headerNextCup a      { background:url(../images/headerNextCup.gif) no-repeat; }
+div#header ul li#headerChampionTeam a { background:url(../images/headerChampionTeam.gif) no-repeat; }
+div#header ul li#headerGallery a      { background:url(../images/headerGallery.gif) no-repeat; }
+div#header ul li#headerNextCup a:hover      { background-position:0px -101px; }
+div#header ul li#headerChampionTeam a:hover { background-position:0px -101px; }
+div#header ul li#headerGallery a:hover      { background-position:0px -101px; }
+div#header ul li a img { }
+
+/** #footer */
+div#footer {
+    margin-top:25px;
+    padding-top:10px;
+    width:100%;
+    height:100px;
+    background-color:#800019;
+    text-align:center;
+    color:white;
+}
+div#linkWrapper {
+    margin:auto;
+    width:875px;
+    height:55px;
+    padding-top:10px;
+}
+div#linkWrapper a {
+    text-decoration:underline;
+    color:white;
+}
+div#footer div.link {
+    width:291px;
+    height:25px;
+    float:left;
+}

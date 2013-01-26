@@ -1,19 +1,13 @@
 @charset "utf-8";
-/* ===================================================================
- css name  :import.css
- infomation :各cssファイル読み込み用
-=================================================================== */
+/**
+ * importまとめ
+ */
 
-/* default style - リセット及びbody基本設定
------------------------------------------------------------ */
-@import url("default.css");
-
-
-/* 共通のスタイル指定(ストラクチャ、ヘッダー、フッター)
------------------------------------------------------------ */
-@import url("module.css");
-
-
-/* clearfix
------------------------------------------------------------ */
+@import url("init.css");
 @import url("clearfix.css");
+@import url("common.css");
+@import url("index.css");
+@import url("nextCup.css");
+@import url("gameResult.css");
+@import url("photo.css");
+@import url("omoi.css");

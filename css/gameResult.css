@@ -1,0 +1,13 @@
+@charset "utf-8";
+/**
+ * gameResult.html用
+ */
+
+div#gameResult {
+    margin-top:25px;
+}
+div#gameResult h {
+}
+div#gameResult div#ui-tab {
+    margin: 25px 0 0 0;
+}

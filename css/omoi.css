@@ -1,0 +1,22 @@
+@charset "utf-8";
+/**
+ * omoi.html用
+ */
+
+div#omoi {
+    margin-top:25px;
+    text-indent:-9999px;
+}
+div#omoi h2 {
+    height:29px;
+    background:url(../images/omoi_title.gif) no-repeat;
+}
+div#omoi h3 {
+    margin-top:25px;
+    width:875px;
+    height:810px;
+    background:url(../images/omoiDetail.jpg) no-repeat;
+}
+div#omoi p {
+    height:0px;
+}

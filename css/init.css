@@ -1,9 +1,9 @@
 @charset "utf-8";
-/* ===================================================================
- css name  :idefault.css
- infomation :リセットCSS
-=================================================================== */
-/*--- reset */
+/**
+ * 初期化
+ */
+ 
+/** reset */
 html {
 	overflow-y: scroll;
 }
@@ -44,7 +44,7 @@ li {
 	list-style-type: none;
 }
 
-/*--- default */
+/** default */
 body {
 	font-family: "ＭＳ Ｐゴシック","MS PGothic","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,Sans-Serif;
 	font-size:small;

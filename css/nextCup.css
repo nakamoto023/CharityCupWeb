@@ -1,0 +1,35 @@
+@charset "utf-8";
+/**
+ * nextCup.html用
+ */
+
+div#nextCup {
+    width:875px;
+    margin:20px 0 0 0;
+}
+div#nextCup h3 {
+    margin:20px 0 0 0;
+    font-size:2em;
+    font-weight:bold;
+    text-align:center;
+}
+dl {
+	margin: 10px 0 0 0;
+	border: 7px #e2ddc5 solid;
+}
+dl dt {
+	float: left;
+	width: 7em;
+	padding: 10px 0;
+	font-weight: bold;
+	text-indent: 1em;
+	line-height: 150%;
+}
+dl dd {
+	padding: 10px 0 0px 7em;
+	line-height: 150%;
+}
+.lastdd {
+    padding-bottom: 10px;
+	border-bottom: 1px #e2ddc5 solid;
+}
