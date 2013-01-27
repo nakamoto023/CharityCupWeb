@@ -4,17 +4,16 @@
  */
 
 div#photo {
+    width:875px;
+    height:500px;
+    position:relative;
     margin-top:25px;
-/*    text-align:center;*/
 }
-div#photo h {
+div#photo h2 {
 }
-div#photo div#ui-tab {
-    margin: 25px 0 0 0;
-}
-div#photo .ui-tabs-panel {
-    text-align:center;
-}
-div#photo div#ui-tab embed {
-    margin-top:25px;
+div#photo p {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:0 0 0 -150px;
 }
