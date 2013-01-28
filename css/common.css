@@ -69,26 +69,28 @@ div#header ul li a img { }
 
 /** #footer */
 div#footer {
-    margin-top:25px;
-    padding-top:10px;
     width:100%;
-    height:100px;
+    margin-top:25px;
     background-color:#800019;
+}
+div#footer_wrapper {
+    width:875px;
+    margin:auto;
+    padding:10px 0;
     text-align:center;
     color:white;
 }
-div#linkWrapper {
-    margin:auto;
-    width:875px;
-    height:55px;
+div#footer_wrapper h3 {
+}
+div#footer_wrapper p {
     padding-top:10px;
 }
-div#linkWrapper a {
-    text-decoration:underline;
-    color:white;
+div#footer_link_wrapper {
 }
-div#footer div.link {
+div#footer_link_wrapper a {
     width:291px;
-    height:25px;
+    padding-top:10px;
     float:left;
+    color:white;
+    text-decoration:underline;
 }
