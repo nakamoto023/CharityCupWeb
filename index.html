@@ -14,8 +14,21 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.3/jquery-ui.min.js" ></script>
 <script type="text/javascript">
 $(document).ready(function(){
-  $("#featured").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, false);  
+  $("#featured").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 7000, false);  
 });
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38901007-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
 <title>ソフバ | ソフトバレーチャリティーカップWEB</title>
 </head>
@@ -36,8 +49,13 @@ $(document).ready(function(){
       
       <!-- 小表示 -->
       <ul class="ui-tabs-nav">
-        <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-1"><a href="#fragment-1"><img src="images/slide_19.jpg" width="106" height="66" /><span>第19回舞洲大会<br />
-          大会要項</span></a></li>
+        <li class="ui-tabs-nav-item" id="nav-fragment-1"><a href="#fragment-1"><img src="images/slide_19.jpg" width="106" height="66" /><span>大会要項<br />
+          第19回舞洲大会</span></a></li>
+        <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-2"><a href="#fragment-2"><img src="images/slide_flash_report.jpg" width="106" height="66" /><span>試合速報<br />
+          第19回舞洲大会</span></a></li>
+        <li class="ui-tabs-nav-item" id="nav-fragment-3"><a href="#fragment-3"><img src="images/slide_twitter.jpg" width="106" height="66" /><span>ツイッターでつぶやいてみよう！<br />
+          #ソフチャ</span></a></li>
+        <li class="ui-tabs-nav-item" id="nav-fragment-4"><a href="#fragment-4"><img src="images/slide_team_link.jpg" width="106" height="66" /><span>ホームページのリンク募集</span></a></li>
       </ul>
       
       <!-- 大表示 --> 
@@ -45,16 +63,41 @@ $(document).ready(function(){
       <a href="nextCup.html">
       <div id="fragment-1" class="ui-tabs-panel" style=""> <img src="images/slide_19.jpg"/>
         <div class="info" >
-          <h2>第19回舞洲大会</h2>
+          <h2>大会要項　第19回舞洲大会</h2>
           <p>2013年03月03日(日)開催<br />
-            現在参加チームを募集中です。<br />
+            103チーム参加します。<br />
             広くてキレイな舞洲アリーナでの大会です。</p>
         </div>
       </div>
       </a> 
       <!-- Second Content --> 
-      <!-- Third Content --> 
+      <a href="https://www.dropbox.com/sh/z1e11jsxgci2fl4/sjcndMLkcD">
+      <div id="fragment-2" class="ui-tabs-panel" style=""> <img src="images/slide_flash_report.jpg"/>
+        <div class="info" >
+          <h2>試合速報　第19回舞洲大会</h2>
+          <p>ここをクリックするとダウンロードページへ移動します。<br />
+            予選結果からトーナメント結果まですべて確認できます。<br />
+            Excelの計算式(勝ち数，セット数，得失点など)が、一部のスマホアプリではきちんと計算されないことがありますが、ご了承ください。</p>
+        </div>
+      </div>
+      </a>
+      <!-- Third Content -->
+      <div id="fragment-3" class="ui-tabs-panel" style=""> <img src="images/slide_twitter.jpg"/>
+        <div class="info" >
+          <h2>ツイッターでつぶやいてみよう！</h2>
+          <p>「 #ソフチャ」をつけてつぶやくと、このページに表示されます。<br />
+            チャリティーカップの意見でも感想でもなんでもいいので、つぶやきまくってOKです！<br />
+            アカウントによっては、つぶやいても表示されない場合もあります。</p>
+        </div>
+      </div>
       <!-- Fourth Content --> 
+      <div id="fragment-4" class="ui-tabs-panel" style=""> <img src="images/slide_team_link.jpg"/>
+        <div class="info" >
+          <h2>ホームページのリンク募集</h2>
+          <p>チームで運営しているブログやSNSなどでも構いません。<br />
+            チーム名，住所，URLをチャリティースタッフまでご連絡ください。</p>
+        </div>
+      </div>
     </div>
     <!-- #featured --> 
   </div>
@@ -70,10 +113,10 @@ $(document).ready(function(){
 new TWTR.Widget({
   version: 2,
   type: 'search',
-  search: '#ソフバチャリティー',
+  search: '#ソフチャ',
   interval: 10000,
   title: '',
-  subject: 'ソフバ on Twitter',
+  subject: 'ソフチャ on Twitter',
   width: 200,
   height: 325,
   theme: {
@@ -91,7 +134,7 @@ new TWTR.Widget({
     scrollbar: false,
     loop: true,
     live: true,
-    behavior: 'default'
+    behavior: 'all'
   }
 }).render().start();
 </script> 
@@ -104,10 +147,10 @@ new TWTR.Widget({
     <div id="news">
       <h2>最新のお知らせ</h2>
       <ul>
-        <li id="newsFirst"><a href="nextCup.html">2013年01月31日：第19回舞洲大会（3月3日）の要項を追加 <img src="images/newsArrow.jpg" width="13px" height="13px"/></a></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li id="newsFirst">2013年03月03日：ホームページのリンク募集を開始</li>
+        <li>2013年03月02日：ツイッターのつぶやき（#ソフチャ）表示を追加</li>
+        <li><a href="gameResult.html">2013年03月02日：第19回舞洲大会（3月3日）の試合速報（試合結果）を追加 <img src="images/newsArrow.jpg" width="13px" height="13px"/></a></li>
+        <li><a href="nextCup.html">2013年01月31日：第19回舞洲大会（3月3日）の大会要項を追加 <img src="images/newsArrow.jpg" width="13px" height="13px"/></a></li>
       </ul>
       <div id="newsBottom"></div>
     </div>
