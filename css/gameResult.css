@@ -5,12 +5,19 @@
 
 div#gameResult {
     width:875px;
-    height:500px;
     margin-top:25px;
 }
-div#gameResult h2 {
-}
-div#gameResult p {
+div#gameResult h3 {
     margin:25px 0 0 25px;
-    font-size:24px;
+    font-size:1.9em;
+    font-weight:bold;
+}
+div#gameResult dl dt {
+    margin:25px 0 0 50px;
+    font-size:1.4em;
+    font-weight:bold;
+}
+div#gameResult dl dd {
+    font-size:1.2em;
+    margin:10px 0 0 75px;
 }
