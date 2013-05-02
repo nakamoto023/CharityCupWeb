@@ -19,14 +19,14 @@ div#nextCup dl {
 }
 div#nextCup dl dt {
 	float: left;
-	width: 7em;
+	width: 10em;
 	padding: 10px 0;
 	font-weight: bold;
 	text-indent: 1em;
 	line-height: 150%;
 }
 div#nextCup dl dd {
-	padding: 10px 0 0px 7em;
+	padding: 10px 0 0px 10em;
 	line-height: 150%;
 }
 div#nextCup .lastdd {
