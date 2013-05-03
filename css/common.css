@@ -20,6 +20,10 @@ a { text-decoration:none; }
     margin-top:25px;
 }
 
+.margin-right-25px {
+    margin-right:25px;
+}
+
 div#wrapper {
     margin:auto;
     width:875px;

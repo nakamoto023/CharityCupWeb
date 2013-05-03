@@ -7,6 +7,9 @@ div#nextCup {
     width:875px;
     margin:25px 0 0 0;
 }
+div#nextCup p {
+    margin:25px 0 0 25px;
+}
 div#nextCup h3 {
     margin:25px 0 0 0;
     font-size:1.9em;
@@ -14,22 +17,22 @@ div#nextCup h3 {
     text-align:center;
 }
 div#nextCup dl {
-	margin: 10px 0 0 0;
-	border: 7px #e2ddc5 solid;
+    margin: 10px 0 0 0;
+    border: 7px #e2ddc5 solid;
 }
 div#nextCup dl dt {
-	float: left;
-	width: 10em;
-	padding: 10px 0;
-	font-weight: bold;
-	text-indent: 1em;
-	line-height: 150%;
+    float: left;
+    width: 10em;
+    padding: 10px 0;
+    font-weight: bold;
+    text-indent: 1em;
+    line-height: 150%;
 }
 div#nextCup dl dd {
-	padding: 10px 0 0px 10em;
-	line-height: 150%;
+    padding: 10px 0 0px 10em;
+    line-height: 150%;
 }
 div#nextCup .lastdd {
     padding-bottom: 10px;
-	border-bottom: 1px #e2ddc5 solid;
+    border-bottom: 1px #e2ddc5 solid;
 }
