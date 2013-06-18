@@ -7,6 +7,9 @@ div#gameResult {
     width:875px;
     margin-top:25px;
 }
+div#gameResult p {
+    margin:25px 0 0 25px;
+}
 div#gameResult h3 {
     margin:25px 0 0 25px;
     font-size:1.9em;
