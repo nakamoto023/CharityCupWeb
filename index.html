@@ -132,42 +132,14 @@ $(document).ready(function(){
       <li id="centerNextCup" class="centerImage">
         <a href="nextCup.html">次回大会</a>
       </li>
-      <li id="centerChampionTeam" class="centerImage">
+      <li id="centerGameResult" class="centerImage">
         <a href="gameResult.html">試合結果</a>
       </li>
-      <li id="centerGallery" class="centerImage">
+      <li id="centerPhoto" class="centerImage">
         <a href="photo.html">写真</a>
       </li>
-      <li>
-        <script>
-new TWTR.Widget({
-  version: 2,
-  type: 'search',
-  search: '#ソフチャ',
-  interval: 10000,
-  title: '',
-  subject: 'ソフチャ on Twitter',
-  width: 200,
-  height: 325,
-  theme: {
-    shell: {
-      background: '#e3dec6',
-      color: '#371212'
-    },
-    tweets: {
-      background: '#fcfbf5',
-      color: '#371212',
-      links: '#9a3549'
-    }
-  },
-  features: {
-    scrollbar: false,
-    loop: true,
-    live: true,
-    behavior: 'all'
-  }
-}).render().start();
-</script>
+      <li id="centerMovie" class="centerImage">
+        <a href="movie.html">動画</a>
       </li>
     </ul>
   </div>
@@ -178,6 +150,9 @@ new TWTR.Widget({
       <h2>最新のお知らせ</h2>
       <ul>
         <li id="newsFirst">
+          <a href="movie.html">2013年07月06日：動画ページを追加 <img src="images/newsArrow.jpg" width="13px" height="13px"/></a>
+        </li>
+        <li>
           <a href="nextCup.html">2013年06月29日：大和高田大会と八尾大会の大会要項を追加 <img src="images/newsArrow.jpg" width="13px" height="13px"/></a>
         </li>
         <li>
@@ -185,9 +160,6 @@ new TWTR.Widget({
         </li>
         <li>
           <a href="gameResult.html">2013年06月18日：岸和田大会と平野大会の試合結果を追加 <img src="images/newsArrow.jpg" width="13px" height="13px"/></a>
-        </li>
-        <li>
-          <a href="https://www.dropbox.com/sh/oavx09323dhgmr1/wQTsYtWIbK">2013年06月09日：岸和田大会の試合速報を追加 <img src="images/newsArrow.jpg" width="13px" height="13px"/></a>
         </li>
       </ul>
       <div id="newsBottom"></div>

@@ -126,21 +126,27 @@ div#center ul li.centerImage a {
     display:block;
 }
 div#center ul li#centerNextCup a {
-    background:url(../images/centerNextCup.jpg) no-repeat;
+    background:url(../images/center_next_cup.jpg) no-repeat;
 }
 div#center ul li#centerNextCup a:hover {
     background-position:-200px 0px;
 }
-div#center ul li#centerChampionTeam a {
-    background:url(../images/centerChampionTeam.jpg) no-repeat;
+div#center ul li#centerGameResult a {
+    background:url(../images/center_game_result.jpg) no-repeat;
 }
-div#center ul li#centerChampionTeam a:hover {
+div#center ul li#centerGameResult a:hover {
     background-position:-200px 0px;
 }
-div#center ul li#centerGallery a {
-    background:url(../images/centerGallery.jpg) no-repeat;
+div#center ul li#centerPhoto a {
+    background:url(../images/center_photo.jpg) no-repeat;
 }
-div#center ul li#centerGallery a:hover {
+div#center ul li#centerPhoto a:hover {
+    background-position:-200px 0px;
+}
+div#center ul li#centerMovie a {
+    background:url(../images/center_movie.jpg) no-repeat;
+}
+div#center ul li#centerMovie a:hover {
     background-position:-200px 0px;
 }
 div#center ul li a img {
