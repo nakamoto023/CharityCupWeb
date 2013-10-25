@@ -7,9 +7,9 @@
 @import url("clearfix.css");
 @import url("common.css");
 @import url("index.css");
-@import url("nextCup.css");
-@import url("gameResult.css");
+@import url("summary.css");
+@import url("result.css");
 @import url("photo.css");
 @import url("movie.css");
-@import url("omoi.css");
-@import url("clickButton.css");
+@import url("wish.css");
+@import url("click_button.css");

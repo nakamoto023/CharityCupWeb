@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 /**
  * 各ページ共通
  */
@@ -7,28 +6,24 @@ body {
     background:#fbfaf3;
     border-top:solid #800019 10px;
 }
-
-a { text-decoration:none; }
-
+a {
+    text-decoration:none;
+}
 .textHidden {
     text-indent:100%;
     white-space:nowrap;
     overflow:hidden;
 }
-
 .margin-top-25px {
     margin-top:25px;
 }
-
 .margin-right-25px {
     margin-right:25px;
 }
-
 div#wrapper {
     margin:auto;
     width:875px;
 }
-
 /** #header */
 div#header {
     width:875px;
@@ -46,9 +41,12 @@ div#header h1 a {
     float:left;
     display:inline;
 }
-div#header h1 a { }
-div#header h1 a img { }
-div#header ul { }
+div#header h1 a {
+}
+div#header h1 a img {
+}
+div#header ul {
+}
 div#header ul li {
     margin-top:32px;
     margin-left:25px;
@@ -63,14 +61,26 @@ div#header ul li.headerIcon a {
     width:101px;
     height:101px;
 }
-div#header ul li#headerNextCup a      { background:url(../images/headerNextCup.gif) no-repeat; }
-div#header ul li#headerChampionTeam a { background:url(../images/headerChampionTeam.gif) no-repeat; }
-div#header ul li#headerGallery a      { background:url(../images/headerGallery.gif) no-repeat; }
-div#header ul li#headerNextCup a:hover      { background-position:0px -101px; }
-div#header ul li#headerChampionTeam a:hover { background-position:0px -101px; }
-div#header ul li#headerGallery a:hover      { background-position:0px -101px; }
-div#header ul li a img { }
-
+div#header ul li#header_summary a {
+    background:url(../images/header_summary.gif) no-repeat;
+}
+div#header ul li#header_result a {
+    background:url(../images/header_result.gif) no-repeat;
+}
+div#header ul li#header_photo a {
+    background:url(../images/header_photo.gif) no-repeat;
+}
+div#header ul li#header_summary a:hover {
+    background-position:0px -101px;
+}
+div#header ul li#header_result a:hover {
+    background-position:0px -101px;
+}
+div#header ul li#header_photo a:hover {
+    background-position:0px -101px;
+}
+div#header ul li a img {
+}
 /** #footer */
 div#footer {
     width:100%;
